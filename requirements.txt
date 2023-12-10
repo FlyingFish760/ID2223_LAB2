@@ -1,9 +1,10 @@
-accelerate
+gradio
+pytube
 transformers
-torch
-datasets>=2.6.1
-git+https://github.com/huggingface/transformers
-librosa
-evaluate
-jiwer
 huggingface_hub
+gtts
+fpdf
+pdfminer
+pdfminer-six
+torch
+sentencepiece
