@@ -27,3 +27,6 @@ From the perpective of the training losses, which is 0.5075 (old model) to 0.231
 To add value to the readability and maintainability of the code, we refactored the program to a featrue engineering pipline (feature_pipline.py), a tranining pipline (training_pipline.py), an inference pipline (hugging face app.py), and a main program (fine_tune_whisper.ipynb).
 
 The pipline files do the feature extraction, training, and inference work respectively, while the main program would become much compacter and easier to read. Moreover, if any part of the program does not work right, one could look into particular pipline files and modify on them.
+
+### Hugging face URL
+https://huggingface.co/spaces/kaidiXu/whisper_Chinese
